@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    padding: 0px 67px;
+}
+
+.site-link{
+    text-decoration: none;
+}
+
+.navbar{
+    height: 97px;
+    background-color: white;
+    box-shadow: 0px 4px 4px #00000025;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.group-link{
+    display: flex;
+    gap: 20px;
+}
+.group-link li{
+    list-style: none;
+}
+
+.group-link li a{
+    font-weight: 300px;
+   font-style: normal;
+   font-size: 22px;
+   color: #204B9B;
+}
+.nav-button{
+    width: 172px;
+    height: 49px;
+    color: #fff;
+    background-color: #F6A317;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: normal;
+}
+.container h1{
+    width: 600px;
+    height: 132px;
+    color: #204B9B;
+    font-size: 70px;
+    font-weight: bolder;
+    font-style: normal;
+    justify-items: normal;
+    line-height: 70px;
+}
+.container p{
+    width: 500px;
+    height: 137px;
+    font-size: 25px;
+    color: #171614;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.cta{
+    width: 218px;
+    height: 63px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 30px;
+    background-color: #F6A317;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 65px;
+    bottom: 250px;
+    text-decoration: none;
+
+}
+.big-box{
+   width: 1500px;
+    height: 700px;
+    background-color: #204B9B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 250px;
+    align-content: center;
+    gap: 100px;
+    right: 200px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+   padding-bottom: 200px;
+}
+h3{
+    text-align: center;
+    text-align: right;
+    color: #204B9B;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+    text-align: right;
+    margin-right: 900px;
+
+}
+.texte{
+    font-size: 20px;
+    text-align: center;
+    text-align: right;
+    margin-right: 500px;
+}  
+.big-flex{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 300px;
+  background-color: #171614;
+  gap: 20px;
+}
